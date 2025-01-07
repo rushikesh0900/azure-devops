@@ -1,0 +1,13 @@
+resource_group_name  = "CustomerFirst"
+location             = "West US"
+vnet_name            = "myVNetC1T"
+vnet_address_space   = "10.0.0.0/16"
+subnet_name          = "mySubnetC1T"
+subnet_address_prefix = "10.0.1.0/24"
+nsg_name             = "myNSGC1T"
+public_ip_name       = "myPublicIP"
+nic_name             = "myNIC"
+vm_name              = "myWindowsVM"
+vm_size              = "Standard_B2s"
+admin_username       = "adminuser"
+admin_password       = "P@ssw0rd1234" # Replace with a secure password
